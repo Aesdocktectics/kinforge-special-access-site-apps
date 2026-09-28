@@ -1,0 +1,28 @@
+{
+  "version": "1.6.0",
+  "slug": "special-access-site-and-apps",
+  "title": "Special Access Site and Apps",
+  "audience": "Approved Special Access users",
+  "site": "KinForge Genealogy Special Access Edition appgprj_6ab90a1abad4819181574c67f0844b04",
+  "app": "Special Access Mac, Windows and installable web app channel",
+  "access": "Special Access code first, then account creation/sign-in for approved user",
+  "releaseSource": {
+    "ownerPullRequest": "https://github.com/Aesdocktectics/kinforge-genealogy-studio/pull/19",
+    "ownerBranch": "codex/kinforge-owner-1.6.0",
+    "manifest": "server/releaseManifest.ts",
+    "updateFolder": "Downloads/KinForge Genealogy Studio Supreme Suite/Updates/1.6.0"
+  },
+  "packages": [
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Apple-Silicon.dmg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Apple-Silicon.pkg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Intel.dmg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-Intel.pkg",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-x64-setup.exe",
+    "KinForge Genealogy Studio Supreme Suite-1.6.0-x64-portable.exe"
+  ],
+  "requirements": [
+    "Connect 1.6.0 release packages to Special Access downloads",
+    "Landing page must ask for access code before account flow",
+    "Keep Special Access UI/workflow separate from public and owner editions"
+  ]
+}
